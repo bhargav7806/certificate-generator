@@ -6,7 +6,7 @@ import os, zipfile
 df = pd.read_csv("winner.csv")
 
 # Load certificate template
-template = Image.open("certificate_templatew.png")
+template = Image.open("certificate_template.png")
 image_width, image_height = template.size  # Get dimensions
 
 # Create output folder
